@@ -22,22 +22,38 @@
 
 // Mathmatic(num1,num2,num3);
 
-let username = prompt("username:");
-let password = prompt("password:");
-(function userpass(username,password) {
-  document.write("user:" + username);
-  document.write("<br/> pass:" + password);
-})(username,password);
+// let username = prompt("username:");
+// let password = prompt("password:");
+// (function userpass(username,password) {
+//   document.write("user:" + username);
+//   document.write("<br/> pass:" + password);
+// })(username,password);
 
-//without parameter function
-// function test(){
-//   var num = 16;
-//   document.write ("<br/>Result is: "+ num * num);
-// }
-// test();
+// //without parameter function
+// // function test(){
+// //   var num = 16;
+// //   document.write ("<br/>Result is: "+ num * num);
+// // }
+// // test();
 
-//IIFEs(Immdiately Invokeable Function Expression)
-(function show(){
-  document.write("<br/>IIFEs Immdiately Invokeable Function Expression");
-  document.write("<br/> Naeem Ahmed");
-})();
+// //IIFEs(Immdiately Invokeable Function Expression)
+// (function show(){
+//   document.write("<br/>IIFEs Immdiately Invokeable Function Expression");
+//   document.write("<br/> Naeem Ahmed");
+// })();
+
+// let var i=3 ; ("Enter A Number: ")
+
+var names =["Naeem", "18","DWD"];
+// // document.write(names);
+// document.write(names[0] + "<br/>");
+// document.write(names[1] + "<br/>");
+// document.write(names[2] + "<br/>");
+// document.write(names[2]);
+// for(var i= 0 ; i<names.length; i++)
+// document.write(names[i] + "<br>");
+var mylist = new Array(5);
+for(var i= 0 ; i < mylist.length; i++)
+mylist[i] = prompt("Enter " + i + " index Number ")
+for (var i = 0; i<mylist.length; i++)
+document.write(mylist[i] + "<br>");
